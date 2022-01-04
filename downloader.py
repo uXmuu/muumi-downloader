@@ -6,7 +6,7 @@ for i in os.popen("ls").read().split("\n"):
         a=i[:-18]+".mp4"
         os.system("mv "+'"'+i+'"' +" "+'"'+a+'"')
         if "mp4" in i[:-4]:
-            a=i[:-39]
+            a=i[:-21]
             os.system("mv "+'"'+i+'"' +" "+'"'+a+'"')
 
     if "linkki" in i.lower():
